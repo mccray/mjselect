@@ -5,7 +5,7 @@ MJMODAL
 	<strong>Warning ! : This little plugin need a small level integration.</strong>
 </p>
 
-<h2>CALL PLUGIN IN HTML</h2>
+<h2>CALL PLUGIN IN THE HTML</h2>
 ___________________________________
 			
 <pre>
@@ -13,9 +13,14 @@ ___________________________________
 	&lt;script type="text/javascript" src="mjselect.js"&gt;&lt;/script&gt;
 </pre>
 
-<p>You can change the params in the file mjselect.js => params</p>
+<p>And in the footer</p>
 
-<p>HTML code : </p>
+<pre>
+	&lt;script type="text/javascript"&gt; var mj = new mjselect(); &lt;/script&gt;
+</pre>
+
+<h2>HTML CODE</h2>
+___________________________________
 
 <pre>
 	&lt;form>
@@ -31,13 +36,8 @@ ___________________________________
 	&lt;/form&gt;
 </pre>
 
-<h2>Add HTML footer</h2>
-<pre>
-	&lt;script type="text/javascript"&gt; var mj = new mjselect(); &lt;/script&gt;
-</pre>
 
-
-<h2>Change modal style</h2>
+<h2>STYLE</h2>
 ___________________________________
 	
 <p>Change modal style in the file css/mjselect.css</p>
