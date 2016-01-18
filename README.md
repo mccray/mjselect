@@ -1,7 +1,7 @@
-MJMODAL
+MJSELECT
 ===========
 <p>
-	MJMODAL is a simple selectbox in pure javascript &amp; CSS3. It's ultra speed because it does not use a js library. It needs just js & css3.<br /><br />
+	MJSELECT is a simple selectbox in pure javascript &amp; CSS3. It's ultra speed because it does not use a js library. It needs just js & css3.<br /><br />
 	<strong>Warning ! : This little plugin need a small level integration.</strong>
 </p>
 
