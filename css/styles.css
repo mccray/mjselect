@@ -1,0 +1,41 @@
+/*
+NAME : MJMODAL
+DESCRIPTION : MJMODAL is a simple modal in pure javascript & CSS3
+AUTHOR : MORGAN JOURDIN
+VERSION : 2.0
+*/
+
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #1F253F;
+	font-family: arial;
+	line-height: 120%
+}
+
+#mjp {
+	position: relative;
+	padding: 30px;
+	-webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+  	-ms-box-sizing: border-box;
+  	-o-box-sizing: border-box;
+  	box-sizing: border-box;
+}
+
+h1, p {
+	padding: 0;
+	margin: 0 0 15px;
+	color: #eee;
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 970px) { 
+
+}
