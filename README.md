@@ -15,30 +15,32 @@ ___________________________________
 
 <p>You can change the params in the file mjselect.js => params</p>
 
-<p>Params : </p>
+<p>HTML code : </p>
 
-<form>
-	<div class="container-mjselect">
-		<select class="mjselect" name="line">
-			<option value="-">---- Select ----</option>
-			<option value="0">Line 1</option>
-			<option value="2">Line 2</option>
-			<option value="3">Line 3</option>
-			<option value="4">Line 4</option>
-		</select>
-	</div>
-</form>
+<pre>
+	&lt;form>
+		&lt;div class="container-mjselect"&gt;
+			&lt;select class="mjselect" name="line"&gt;
+				&lt;option value="-"&gt;---- Select ----&lt;/option&gt;
+				&lt;option value="0"&gt;Line 1&lt;/option&gt;
+				&lt;option value="2"&gt;Line 2&lt;/option&gt;
+				&lt;option value="3"&gt;Line 3&lt;/option&gt;
+				&lt;option value="4"&gt;Line 4&lt;/option&gt;
+			&lt;/select&gt;
+		&lt;/div&gt;
+	&lt;/form&gt;
+</pre>
 
-<h2>ADD HTML FOOTER</h2>
+<h2>Add HTML footer</h2>
 <pre>
 	&lt;script type="text/javascript"&gt; var mj = new mjselect(); &lt;/script&gt;
 </pre>
 
 
-<h2>CHANGE STYLE MODAL</h2>
+<h2>Change modal style</h2>
 ___________________________________
 	
-<p>Change style modal in the file mjselect.css</p>
+<p>Change modal style in the file css/mjselect.css</p>
 
 <h2>OTHER INFOS</h2>
 ___________________________________
